@@ -1,0 +1,14 @@
+
+   .sub_coment{
+   	margin-left: 60px;
+   }
+   .sub_coment img, .coment img{
+   	width: 100%;
+   }
+#cabecera{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#botones{
+    float: right;
+}

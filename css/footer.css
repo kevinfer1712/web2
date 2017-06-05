@@ -1,0 +1,11 @@
+#parrafo{   
+    text-align: center;
+    border:0px solid black;
+    background-color: black;
+    color: white;
+    max-width: 100%;
+}
+
+#pie_pagina{
+    background-color: black;
+}

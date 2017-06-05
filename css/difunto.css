@@ -1,0 +1,33 @@
+            #tabla {
+                border: 2px solid rgba(0,0,0,.8);
+                border-radius: 10px;
+            }
+            .head{
+                background: rgba(0,0,0,.8);
+                color: #fff;
+                text-align: center;
+            }
+            
+            .contendor1{
+                position: absolute;
+                left: 150px;
+                top: 200px;
+               
+                
+            }
+            .contendor2{
+                position: absolute;
+                left: 150px;
+                top: 330px;
+              
+            }
+            td{
+                text-align: center;
+                border-bottom: 2px solid rgba(0,0,0,.1);
+            }
+            #nombre{
+                border-radius: 8px 0 0 0;
+            }
+             #vence{
+                border-radius: 0 8px 0 0;
+            }
