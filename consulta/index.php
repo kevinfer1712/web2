@@ -178,14 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                <li><a href="../organigrama.html">Organigrama</a></li>
                             </ul>
                          </li>
-                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cen Productivos<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                               <li><a href="#">Opción 1</a></li>
-                               <li><a href="#">Opción 2</a></li>
-                               <li><a href="#">Opción 3</a></li>
-                            </ul>
-                         </li>
+                       
                          <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cen Asistenciales<span class="caret"></span></a>
                            <ul class="dropdown-menu">
@@ -195,14 +188,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <li><a href="../Funeraria.html">Agencia Funeraria De La SBPP</a></li>
                             </ul>
                          </li>
-                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transparencia<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                               <li><a href="#">Opción 1</a></li>
-                               <li><a href="#">Opción 2</a></li>
-                               <li><a href="#">Opción 3</a></li>
-                            </ul>
-                         </li>
+                        
                          <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contactenos<span class="caret"></span></a>
                             <ul class="dropdown-menu">
