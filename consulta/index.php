@@ -126,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                              <figcaption>youtube</figcaption>
                         </figure>
                        <figure>
-                           <a href="ubicacion.html"><img class="redes_sociales" src="icon/location.png" alt="" id="logos" class="img-responsive"></a>
+                           <a href="../ubicacion.html"><img class="redes_sociales" src="icon/location.png" alt="" id="logos" class="img-responsive"></a>
                            <figcaption>ubicacion</figcaption>
                        </figure>
 
