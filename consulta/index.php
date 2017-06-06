@@ -118,19 +118,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     
                 <div class="col-xs-12  col-sm-6 col-md-4 visible-md col-lg-4 visible-lg" id="cajon">
                     <figure>
-                      <a href=""><img class="redes_sociales" src="../icon/face.png" alt="" id="logos" class="img-responsive"></a> 
-                      <figcaption>facebook</figcaption>
-                    </figure>
-
-                    <figure>
-                         <a href=""><img class="redes_sociales" src="../icon/youtube.png" alt="" id="logos" class="img-responsive"></a>
-                         <figcaption>youtube</figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href=""><img class="redes_sociales" src="../icon/location.png" alt="" id="logos" class="img-responsive"></a>
-                            <figcaption>ubicacion</figcaption>
-                    </figure>
+                     <a href="https://www.facebook.com/Sociedad-de-Beneficencia-P%C3%BAblica-de-Pisco-727882204050214/?fref=ts"><img class="redes_sociales" src="icon/face.png" alt="" id="logos" class="img-responsive"></a> 
+                          <figcaption>facebook</figcaption>
+                      </figure>
+                        <figure>
+                             <a href="https://www.youtube.com/channel/UCTIabkzRUbvHkjZ5hBnN70w"><img class="redes_sociales" src="icon/youtube.png" alt="" id="logos" class="img-responsive"></a>
+                             <figcaption>youtube</figcaption>
+                        </figure>
+                       <figure>
+                           <a href="ubicacion.html"><img class="redes_sociales" src="icon/location.png" alt="" id="logos" class="img-responsive"></a>
+                           <figcaption>ubicacion</figcaption>
+                       </figure>
 
                     <figure>
                         <a href=""><img class="redes_sociales" src="../icon/webmail.png" alt="" id="logos" class="img-responsive"></a>
