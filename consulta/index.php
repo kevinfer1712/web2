@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html lang="es">
     <head >
-        <title>Mi Página web</title>
+       <title>Sociedad de Beneficencia Publica de Pisco</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -55,9 +55,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <link rel="stylesheet" href="../css/section.css">
         <link rel="stylesheet" href="../css/reloj.css">
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/aside.css">
         <link rel="shortcut icon" href="../img/12400443_150518905321428_1422756487860000121_n.jpg">
         <link rel="stylesheet" href="../css/faldon.css">
-        
+        <link rel="stylesheet" href="index.php">
+        <style>
+            .myCarousels{
+            width: 300px;
+            height: 200px;    
+            float: left;
+            margin: 20px;
+}
+        </style>
         <style>
             table {
                 border-collapse: collapse;
@@ -94,31 +103,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="container">
               <!--PRINCIPIO DEL HEADER-->
             <div class="row  header-fondo" id="contenedor1">
-                <div class="col-xs-12  col-sm-6 col-md-4" id="caja1"> 
-                    <figure class="logo_header">
-                        <a href="../index.php"><img src="../img/12400443_150518905321428_1422756487860000121_n.jpg" alt="" id="logosbpp" class="img-responsive" width="100"></a>
-                        <a href=""><p>Sociedad de Beneficencia Publica de Pisco</p></a>
-                    </figure>
+                   <div class="col-xs-12  col-sm-6 col-md-4" id="caja1"> 
+                        <figure class="logo_header">
+                            <a href="#"><img src="../img/12400443_150518905321428_1422756487860000121_n.jpg" alt="" id="logosbpp" class="img-responsive" width="100"></a>
+                            <a href="#"><p>Sociedad de Beneficencia Publica de Pisco</p></a>
+                        </figure>
                       
-                </div>
-                
-                <div class="col-xs-12  col-sm-6 visible-sm col-md-4 visible-md col-lg-4 visible-lg ">
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="caja2" >
-                            <a href="">
-                                <img src="../img/cabecera-mimp-lazo.png" alt="" id="logo" class="<img->    </img->responsive" >
-                            </a>
-                        </div> 
-
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="caja3">
-                            <a href=""><img src="../img/logo.gif" alt="" id="logo" class="img-responsive"></a> 
-                        </div> 
+                   </div>
+                    <div class="col-xs-12  col-sm-6 visible-sm col-md-4 visible-md col-lg-4 visible-lg ">
+                       <div class="row">
+                           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="caja2" >
+                               <a href="http://www.mimp.gob.pe/"><img src="../img/cabecera-mimp-lazo.png" alt="" id="logo" class="img-responsive" ></a>
+                            </div> 
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="caja3">
+                            <a href="http://www.munipisco.gob.pe/"><img src="../img/logo.gif" alt="" id="logo" class="img-responsive"></a> 
+                            </div> 
+                       </div>
                     </div>
-                </div>
-                    
-                <div class="col-xs-12  col-sm-6 col-md-4 visible-md col-lg-4 visible-lg" id="cajon">
-                    <figure>
-                     <a href="https://www.facebook.com/Sociedad-de-Beneficencia-P%C3%BAblica-de-Pisco-727882204050214/?fref=ts"><img class="redes_sociales" src="../icon/face.png" alt="" id="logos" class="img-responsive"></a> 
+                    <div class="col-xs-12  col-sm-6 col-md-4 visible-md col-lg-4 visible-lg" id="cajon">
+                      <figure>
+                        <a href="https://www.facebook.com/Sociedad-de-Beneficencia-P%C3%BAblica-de-Pisco-727882204050214/?fref=ts"><img class="redes_sociales" src="../icon/face.png" alt="" id="logos" class="img-responsive"></a> 
                           <figcaption>facebook</figcaption>
                       </figure>
                         <figure>
@@ -126,25 +130,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                              <figcaption>youtube</figcaption>
                         </figure>
                        <figure>
-                           <a href="../ubicacion.html"><img class="redes_sociales" src="../icon/location.png" alt="" id="logos" class="img-responsive"></a>
+                           <a href="https://www.google.com.pe/maps/@-13.7070646,-76.205179,3a,90y,162.84h,75.85t/data=!3m6!1e1!3m4!1sZ86rd7LkftNH-Edxv4vrzw!2e0!7i13312!8i6656"><img class="redes_sociales" src="../icon/location.png" alt="" id="logos" class="img-responsive"></a>
                            <figcaption>ubicacion</figcaption>
                        </figure>
-
-                    <figure>
-                        <a href=""><img class="redes_sociales" src="../icon/webmail.png" alt="" id="logos" class="img-responsive"></a>
-                        <figcaption>Webmail</figcaption>
-                    </figure>
-
-                    <figure>
-                        <a href=""><img class="redes_sociales" src="../icon/actiweb.png" alt="" id="logos" class="img-responsive"></a>
-                        <figcaption>Actiweb</figcaption>
-                    </figure>
-
-                    <div class="transparencia">
-                        <a href=""><img src="../icon/transparencia.png" alt=""></a>
+                        <figure>
+                            <a href=""><img class="redes_sociales" src="../icon/webmail.png" alt="" id="logos" class="img-responsive"></a>
+                            <figcaption>Webmail</figcaption>
+                        </figure>
+                        <figure>
+                            <a href=""><img class="redes_sociales" src="../icon/actiweb.png" alt="" id="logos" class="img-responsive"></a>
+                            <figcaption>Actiweb</figcaption>
+                        </figure>
+                        <div class="transparencia">
+                            <a href="#"><img src="../icon/transparencia.png" alt=""></a>
+                        </div>
+                        
                     </div>
                 </div>
-            </div>
             <!--FIN DEL HEADER-->
             
        </div>
