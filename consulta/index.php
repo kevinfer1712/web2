@@ -196,6 +196,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </ul>
                          </li>
                     </ul>
+                        <a class="navbar-brand"   href="donacion.html">Donaciones</a>
                         <!-- ***************************************************** -->
                     <div class="hidden-xs hidden-sm">    
                     <ul class="nav navbar-nav navbar-right">
